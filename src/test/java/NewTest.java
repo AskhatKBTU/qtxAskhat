@@ -5,8 +5,8 @@ import org.testng.annotations.AfterTest;
 public class NewTest {
   @Test
   public void myFirstTest() {
-	  Hell
-  }
+	System.out.println("New test");
+	}
   @BeforeTest
   public void beforeTest() {
   }
