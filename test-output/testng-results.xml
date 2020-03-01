@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102" started-at="2020-02-27T20:54:38 EST" finished-at="2020-02-27T20:54:39 EST">
+  <suite name="Default suite" duration-ms="4967" started-at="2020-02-29T19:14:39 EST" finished-at="2020-02-29T19:14:44 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102" started-at="2020-02-27T20:54:38 EST" finished-at="2020-02-27T20:54:39 EST">
+    <test name="Default test" duration-ms="4967" started-at="2020-02-29T19:14:39 EST" finished-at="2020-02-29T19:14:44 EST">
       <class name="NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:NewTest@56235b8e]" name="beforeTest" is-config="true" duration-ms="27" started-at="2020-02-27T20:54:38 EST" finished-at="2020-02-27T20:54:38 EST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:NewTest@1efed156]" name="beforeTest" is-config="true" duration-ms="4678" started-at="2020-02-29T19:14:39 EST" finished-at="2020-02-29T19:14:43 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="myFirstTest()[pri:0, instance:NewTest@56235b8e]" name="myFirstTest" duration-ms="12" started-at="2020-02-27T20:54:39 EST" finished-at="2020-02-27T20:54:39 EST">
+        <test-method status="PASS" signature="launchChromeDriver()[pri:0, instance:NewTest@1efed156]" name="launchChromeDriver" duration-ms="37" started-at="2020-02-29T19:14:43 EST" finished-at="2020-02-29T19:14:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeDriver -->
+        <test-method status="PASS" signature="myFirstTest()[pri:0, instance:NewTest@1efed156]" name="myFirstTest" duration-ms="2" started-at="2020-02-29T19:14:43 EST" finished-at="2020-02-29T19:14:43 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:NewTest@56235b8e]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-27T20:54:39 EST" finished-at="2020-02-27T20:54:39 EST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:NewTest@1efed156]" name="afterTest" is-config="true" duration-ms="164" started-at="2020-02-29T19:14:43 EST" finished-at="2020-02-29T19:14:44 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
