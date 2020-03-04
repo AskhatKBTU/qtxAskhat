@@ -10,26 +10,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
-public class TheInternet {
+public class TheInternet extends TestSuperClass {
 
-	public WebDriver driver;
 
-	@BeforeTest
-	public void beforeTest() {
-
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		String url = "http://the-internet.herokuapp.com/login";
-		driver.navigate().to(url);
-	}
-
-		
 	// As a User
-	// I want to login
-	// So users can do staff
+		// I want to login
+		// So users can do staff
 	
 	@Test
 	public void canLogin () {
@@ -53,14 +43,30 @@ public class TheInternet {
 		
 	}
 	
-
-	@AfterTest
-
-	public void afterTest() {
-		//driver.quit();
-
+	
+	
+	//As a user
+	// I want to select option 2 from the dropdown list
+	//So that some option is selected
+	
+	@Test
+	public void dropdownSelect() {
+		
+		driver.get("http://the-internet.herokuapp.com/dropdown");
+		//Arrange
+		WebElement dropdown = driver.findElement(By.id("dropdown"));
+		Select select = new Select(dropdown);
+		//Act
+		select.selectByVisibleText("Option 2");
+		//Assert
+		WebElement dropdownOptionText = driver.findElement(By.id("flash"));
+		String dropdownExpectedText = new String("Option 2");
+		String dropdownActualText = new String(dropdownOptionText.getText());
+		Assert.assertEquals(dropdownActualText, dropdownExpectedText, "Cannot login!!!");
+		
 	}
+	
 
-
+	
 
 }

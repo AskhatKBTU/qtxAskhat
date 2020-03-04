@@ -5,8 +5,9 @@
     <classes>
       <class name="TheInternet">
         <methods>
-          <include name="beforeTest"/>
+          <include name="dropdownSelect"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
           <include name="canLogin"/>
         </methods>
       </class> <!-- TheInternet -->
