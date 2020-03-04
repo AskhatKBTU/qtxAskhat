@@ -27,7 +27,7 @@ public class ChromeDriverManager extends DriverManager {
 		long time = 1000;
 		TimeUnit unit= TimeUnit.MILLISECONDS;
 		driver.manage().timeouts().implicitlyWait(time , unit);
-		driver.manage().timeouts().pageLoadTimeout(time, unit);
+		//driver.manage().timeouts().pageLoadTimeout(time, unit);
 	}
 	
 

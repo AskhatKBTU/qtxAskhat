@@ -6,6 +6,7 @@
       <class name="TheInternet">
         <methods>
           <include name="dropdownSelect"/>
+          <include name="navigateTo"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="canLogin"/>

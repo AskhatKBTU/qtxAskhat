@@ -20,6 +20,12 @@ public class TheInternet extends TestSuperClass {
 	// As a User
 		// I want to login
 		// So users can do staff
+	@BeforeTest
+	public void navigateTo () {
+		String url = "http://the-internet.herokuapp.com/login";
+		driver.navigate().to(url);
+	}
+	
 	
 	@Test
 	public void canLogin () {
