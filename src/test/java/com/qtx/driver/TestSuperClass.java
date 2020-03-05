@@ -1,3 +1,4 @@
+package com.qtx.driver;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TestSuperClass {
 
-	protected WebDriver driver;
+	public WebDriver driver;
 	
 	@BeforeSuite
 	public void beforeTest() {
