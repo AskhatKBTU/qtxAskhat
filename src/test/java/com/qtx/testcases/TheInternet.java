@@ -26,7 +26,7 @@ public class TheInternet extends TestSuperClass {
 		String expectedGreenBoxText = new String("You logged into a secure area!\n×");
 
 		// act
-		String actualGreenBoxText = new LoginPageObject(driver, "http://the-internet.herokuapp.com")
+		String actualGreenBoxText = new LoginPageObject(driver, url)
 				.OpenLoginPage() //from LoginPageObject
 				.login(userName, password) //from LoginPageObject
 				.getLoginConfirmationMessage(); // from SecurePageObject

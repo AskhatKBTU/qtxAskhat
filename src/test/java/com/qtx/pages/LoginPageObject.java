@@ -30,10 +30,8 @@ public class LoginPageObject extends SuperPageObject{
 		userNameTextBox.sendKeys(userName);
 		passwordTextBox.sendKeys(password);
 		submitBox.click();
-		return new SecurePageObject(driver, url);
-		
+		return new SecurePageObject(driver, url);	
 	} 
 	
-	
-
+	 
 }

@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class TestSuperClass {
 
 	public WebDriver driver;
+	public String url = "http://the-internet.herokuapp.com";
 	
 	@BeforeSuite
 	public void beforeTest() {
@@ -18,7 +19,7 @@ public class TestSuperClass {
 	@AfterSuite
 
 	public void afterTest() {
-		driver.quit();
+		//driver.quit();
 
 	}
 
