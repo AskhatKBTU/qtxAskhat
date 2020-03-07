@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.qtx.driver.TestSuperClass;
 import com.qtx.pages.CheckBoxPageObject;
 
-public class TestCheckbox extends TestSuperClass {
+public class CheckboxTest extends TestSuperClass {
 
 	@Test
 	void test() {
@@ -22,8 +22,8 @@ public class TestCheckbox extends TestSuperClass {
 		for (WebElement element : checkboxes) {
 			boolean wasSelected = element.isSelected();
 			element.click();
-			Assert.assertTrue(wasSelected != element.isSelected(), "Clicking the button did nothing.");
-			System.out.println("Clicked on checkbox successfully.");
+			Assert.assertTrue(wasSelected != element.isSelected(), "Something went wrong!");
+			System.out.println("Checkbox is clicked! ");
 		}
 	}
 
