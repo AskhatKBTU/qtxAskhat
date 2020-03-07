@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qtx.testcases.TheInternet">
+      <class name="com.qtx.testcases.CheckboxTest">
         <methods>
-          <include name="canLogIn"/>
+          <include name="CheckboxChecked"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qtx.testcases.TheInternet -->
+      </class> <!-- com.qtx.testcases.CheckboxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

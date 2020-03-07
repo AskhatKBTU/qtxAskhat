@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3856" started-at="2020-03-05T14:10:12 EST" finished-at="2020-03-05T14:10:16 EST">
+  <suite name="Default suite" duration-ms="1729" started-at="2020-03-06T17:48:45 EST" finished-at="2020-03-06T17:48:47 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3856" started-at="2020-03-05T14:10:12 EST" finished-at="2020-03-05T14:10:16 EST">
-      <class name="com.qtx.testcases.DropdownListTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2167" started-at="2020-03-05T14:10:10 EST" finished-at="2020-03-05T14:10:12 EST">
+    <test name="Default test" duration-ms="1729" started-at="2020-03-06T17:48:45 EST" finished-at="2020-03-06T17:48:47 EST">
+      <class name="com.qtx.testcases.ContextMenuTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.ContextMenuTest@79be0360]" name="beforeTest" is-config="true" duration-ms="3500" started-at="2020-03-06T17:48:42 EST" finished-at="2020-03-06T17:48:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="canSelectFromDrowdown()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="canSelectFromDrowdown" duration-ms="3803" started-at="2020-03-05T14:10:12 EST" finished-at="2020-03-05T14:10:16 EST">
+        <test-method status="PASS" signature="ContextMenuWorkTest()[pri:0, instance:com.qtx.testcases.ContextMenuTest@79be0360]" name="ContextMenuWorkTest" duration-ms="1691" started-at="2020-03-06T17:48:45 EST" finished-at="2020-03-06T17:48:47 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- canSelectFromDrowdown -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="afterTest" is-config="true" duration-ms="98" started-at="2020-03-05T14:10:21 EST" finished-at="2020-03-05T14:10:21 EST">
+        </test-method> <!-- ContextMenuWorkTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.ContextMenuTest@79be0360]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-03-06T17:48:47 EST" finished-at="2020-03-06T17:48:47 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.DropdownListTest -->
+      </class> <!-- com.qtx.testcases.ContextMenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
