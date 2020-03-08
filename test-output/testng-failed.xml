@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qtx.testcases.CheckboxTest">
+      <class name="com.qtx.testcases.HorizontalSliderTest">
         <methods>
-          <include name="CheckboxChecked"/>
           <include name="beforeTest"/>
+          <include name="HorizontalSliderMove"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qtx.testcases.CheckboxTest -->
+      </class> <!-- com.qtx.testcases.HorizontalSliderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
