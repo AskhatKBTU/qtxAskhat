@@ -23,6 +23,7 @@ public class HorizontalSliderTest extends TestSuperClass {
 					.VerifyHorizontalSlider();
 			//Assert
 			Assert.assertEquals(actualSliderResult, expectedSliderResult, "Something went wrong !!!");
+			System.out.println("Slider test passed successfully !!!");
 		
 	}
 	

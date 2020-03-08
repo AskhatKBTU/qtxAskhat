@@ -22,6 +22,7 @@ public class HorizontalSliderPageObject extends SuperPageObject {
 	WebDriverWait wait = new WebDriverWait(driver, 10);
 
 	By SliderLocator  = By.xpath("//*[@id=\"content\"]/div/div/input");
+	By ValueLocator = By.id("range");
 
 	public WebElement findElement(By locator) {
 		  return 
@@ -46,6 +47,7 @@ public class HorizontalSliderPageObject extends SuperPageObject {
 		Dimension sliderSize = priceSlider.getSize();
 		int sliderWidth = sliderSize.getWidth();
 		
+		
 		int xCoord = priceSlider.getLocation().getX();
 						
 		Actions builder = new Actions(driver);   
@@ -60,6 +62,13 @@ public class HorizontalSliderPageObject extends SuperPageObject {
 
 	
 	public double VerifyHorizontalSlider() {
-		return 0;
+	    WebElement SliderValue = 
+	    		 findElement (ValueLocator);
+	    
+	    String valueString = SliderValue.getText();
+	    
+	    double valueSlider = Double.parseDouble(valueString);
+	       
+		return valueSlider;
 	}
 }
