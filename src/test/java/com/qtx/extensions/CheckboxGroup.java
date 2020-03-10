@@ -1,10 +1,9 @@
 package com.qtx.extensions;
 
-import org.openqa.selenium.WebDriver;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WrapsDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CheckboxGroup {
 
@@ -14,21 +13,19 @@ public class CheckboxGroup {
 		this.mappedElement = mappedElement;
 	}
 
-	public void set(boolean doCheck) {
-		if(doCheck != getIsChecked()) {
-			mappedElement.click();
+	public Checkbox getCheckbox(int index) {
+		List<WebElement> foundElements = mappedElement.findElements(By.tagName("input"));
 
-			waitUntilIsSelected(doCheck);
+		if(foundElements.size() < index) {
+			throw new RuntimeException(new Exception("No checkbox with index " + index + " exists in the checkbox group"));
 		}
+
+		WebElement foundElement = foundElements.get(index);
+
+		return new Checkbox(foundElement);
 	}
 
-	private void waitUntilIsSelected(boolean isSelected) {
-		WebDriver driver = ((WrapsDriver)mappedElement).getWrappedDriver();
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementSelectionStateToBe(mappedElement, isSelected));
-	}
 
-	public boolean getIsChecked() {
-		return mappedElement.isSelected();	
-	}
+
+	
 }

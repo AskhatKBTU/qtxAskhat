@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.qtx.extensions.CheckboxGroup;
+import com.qtx.extensions.Checkbox;
 
 public abstract class SuperPageObject {
 
