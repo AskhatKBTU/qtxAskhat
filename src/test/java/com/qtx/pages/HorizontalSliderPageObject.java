@@ -61,11 +61,11 @@ public class HorizontalSliderPageObject extends SuperPageObject {
 	}
 
 	
-	public double VerifyHorizontalSlider() {
-	    WebElement SliderValue = 
+	public double GetHorizontalSliderValue() {
+	    WebElement sliderValue = 
 	    		 findElement (ValueLocator);
 	    
-	    String valueString = SliderValue.getText();
+	    String valueString = sliderValue.getText();
 	    
 	    double valueSlider = Double.parseDouble(valueString);
 	       

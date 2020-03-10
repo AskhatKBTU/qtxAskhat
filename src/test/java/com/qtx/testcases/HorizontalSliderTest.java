@@ -20,7 +20,7 @@ public class HorizontalSliderTest extends TestSuperClass {
 			double actualSliderResult = new HorizontalSliderPageObject(driver, url)
 					.OpenHorizontalSliderPage()
 					.MoveHorizontalSlider()
-					.VerifyHorizontalSlider();
+					.GetHorizontalSliderValue();
 			//Assert
 			Assert.assertEquals(actualSliderResult, expectedSliderResult, "Something went wrong !!!");
 			System.out.println("Slider test passed successfully !!!");

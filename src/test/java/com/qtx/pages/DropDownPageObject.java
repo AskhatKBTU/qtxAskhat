@@ -7,17 +7,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class DropDownPageObject  {
+public class DropDownPageObject extends SuperPageObject {
 	
+	String url = "/dropdown";
+	
+	public DropDownPageObject(WebDriver driverInstance, String baseUrl) {
+		super(driverInstance, baseUrl);
+		// TODO Auto-generated constructor stub
+	}
+
 	WebDriver driver;
 	
-	public DropDownPageObject(WebDriver driverInstance){
-		driver = driverInstance;
-	}
 	
 	public DropDownPageObject OpenDropdownPage() {
-		String url = "http://the-internet.herokuapp.com/dropdown";
-		driver.get(url);
+		
+		Navigate(url);
+		
 		return this;
 	}
 	

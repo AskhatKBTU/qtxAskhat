@@ -13,18 +13,23 @@ import com.qtx.pages.CheckBoxPageObject;
 public class CheckboxTest extends TestSuperClass {
 
 	@Test
-	void test() {
-		List<WebElement> checkboxes = new CheckBoxPageObject(driver, url)
-				.navigate("checkboxes")
-				.getCheckbox()
-				.findElements(By.xpath("//input[@type='checkbox']"));
+	public void CanToggleCheckboxes() {
+		//arrange
+		boolean isChecked1expected = true;
+		boolean isChecked2expected = false;
 
-		for (WebElement element : checkboxes) {
-			boolean wasSelected = element.isSelected();
-			element.click();
-			Assert.assertTrue(wasSelected != element.isSelected(), "Something went wrong!");
-			System.out.println("Checkbox is clicked! ");
-		}
+		//act
+		CheckBoxPageObject page = new CheckBoxPageObject (driver, url)
+			.navigate()
+			.setCheckbox1(isChecked1expected)
+			.setCheckbox2(isChecked2expected);
+
+		boolean actual1 = page.getCheckbox1Checked();
+		boolean actual2 = page.getCheckbox2Checked();
+
+		//assert	
+		Assert.assertEquals(actual1, isChecked1expected);
+		Assert.assertEquals(actual2, isChecked2expected);
 	}
 
 }

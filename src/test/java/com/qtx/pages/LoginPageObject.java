@@ -23,7 +23,6 @@ public class LoginPageObject extends SuperPageObject{
 	}
 
 	 public SecurePageObject login(String userName, String password) {
-	//	 String url = "http://the-internet.herokuapp.com/login";
 		WebElement userNameTextBox = driver.findElement(By.id("username"));
 		WebElement passwordTextBox = driver.findElement(By.id("password"));
 		WebElement submitBox = driver.findElement(By.tagName("button"));

@@ -22,7 +22,7 @@ public class DropdownListTest extends TestSuperClass{
 		String expectedSelection = "Option 2";
 		
 		//act
-		String actualSelection = new DropDownPageObject(driver)
+		String actualSelection = new DropDownPageObject(driver, url)
 				.OpenDropdownPage()
 				.setDropDownList(expectedSelection)
 				.getDropDownListValue();
