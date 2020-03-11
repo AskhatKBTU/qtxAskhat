@@ -1,4 +1,6 @@
 package com.qtx.testcases;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +14,7 @@ import com.qtx.driver.TestSuperClass;
 import com.qtx.pages.LoginPageObject;
 import com.qtx.pages.SecurePageObject;
 
-public class TheInternet extends TestSuperClass {
+public class UserLoginTest extends TestSuperClass {
 
 
 	// As a user
@@ -32,7 +34,7 @@ public class TheInternet extends TestSuperClass {
 				.getLoginConfirmationMessage(); // from SecurePageObject
 		
 		// assert
-		Assert.assertEquals(actualGreenBoxText , expectedGreenBoxText, "Can not Log in!");
+		AssertJUnit.assertEquals(actualGreenBoxText , expectedGreenBoxText, "Can not Log in!");
 
 	}
 

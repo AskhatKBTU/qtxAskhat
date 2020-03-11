@@ -1,5 +1,7 @@
 package com.qtx.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -28,8 +30,8 @@ public class CheckboxTest extends TestSuperClass {
 		boolean actual2 = page.getCheckbox2Checked();
 
 		//assert	
-		Assert.assertEquals(actual1, isChecked1expected);
-		Assert.assertEquals(actual2, isChecked2expected);
+		AssertJUnit.assertEquals(actual1, isChecked1expected);
+		AssertJUnit.assertEquals(actual2, isChecked2expected);
 	}
 
 }

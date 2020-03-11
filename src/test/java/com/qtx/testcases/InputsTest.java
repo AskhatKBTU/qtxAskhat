@@ -1,5 +1,7 @@
 package com.qtx.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -25,7 +27,7 @@ public class InputsTest extends TestSuperClass {
 		boolean inputsVerify = new InputsPageObject(driver,url)
 				.InputsTestProcess(data)
 				.InputsVerification(data);
-		Assert.assertTrue(inputsVerify);
+		AssertJUnit.assertTrue(inputsVerify);
 	} 
 
 }

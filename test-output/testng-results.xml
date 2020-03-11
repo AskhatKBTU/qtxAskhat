@@ -1,80 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12570" started-at="2020-03-10T13:40:08 EDT" finished-at="2020-03-10T13:40:21 EDT">
+  <suite name="Default suite" duration-ms="906" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12570" started-at="2020-03-10T13:40:08 EDT" finished-at="2020-03-10T13:40:21 EDT">
-      <class name="com.qtx.testcases.InputsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="beforeTest" is-config="true" duration-ms="2393" started-at="2020-03-10T13:40:06 EDT" finished-at="2020-03-10T13:40:08 EDT">
+    <test name="Default test" duration-ms="906" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
+      <class name="com.qtx.testcases.DropdownListTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2380" started-at="2020-03-11T10:03:11 EDT" finished-at="2020-03-11T10:03:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="open()[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="open" duration-ms="11687" started-at="2020-03-10T13:40:08 EDT" finished-at="2020-03-10T13:40:20 EDT">
+        <test-method status="PASS" signature="canSelectDropdownListItem()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="canSelectDropdownListItem" duration-ms="862" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="test" duration-ms="297" started-at="2020-03-10T13:40:20 EDT" data-provider="data-provider-inputs" finished-at="2020-03-10T13:40:20 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="test" duration-ms="128" started-at="2020-03-10T13:40:20 EDT" data-provider="data-provider-inputs" finished-at="2020-03-10T13:40:20 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="test" duration-ms="139" started-at="2020-03-10T13:40:20 EDT" data-provider="data-provider-inputs" finished-at="2020-03-10T13:40:20 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="test" duration-ms="123" started-at="2020-03-10T13:40:20 EDT" data-provider="data-provider-inputs" finished-at="2020-03-10T13:40:20 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="test" duration-ms="136" started-at="2020-03-10T13:40:20 EDT" data-provider="data-provider-inputs" finished-at="2020-03-10T13:40:21 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.InputsTest@22a67b4]" name="afterTest" is-config="true" duration-ms="135" started-at="2020-03-10T13:40:21 EDT" finished-at="2020-03-10T13:40:21 EDT">
+        </test-method> <!-- canSelectDropdownListItem -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="afterTest" is-config="true" duration-ms="96" started-at="2020-03-11T10:03:15 EDT" finished-at="2020-03-11T10:03:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.InputsTest -->
+      </class> <!-- com.qtx.testcases.DropdownListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
