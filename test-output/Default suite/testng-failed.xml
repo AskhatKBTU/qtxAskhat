@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qtx.testcases.DropdownListTest">
+      <class name="com.qtx.testcases.JSAlertsTest">
         <methods>
-          <include name="canSelectFromDrowdown"/>
+          <include name="JSAlertTest"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qtx.testcases.DropdownListTest -->
+      </class> <!-- com.qtx.testcases.JSAlertsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
