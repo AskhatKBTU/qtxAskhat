@@ -25,7 +25,6 @@ public class DropdownListPage extends SuperPageObject {
 
 	public DropdownListPage selectOption(String selection) {
 		getSelect(dropdownList).selectByVisibleText(selection);
-		
 		return this;
 	}
 }

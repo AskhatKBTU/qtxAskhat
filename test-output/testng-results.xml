@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="906" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
+  <suite name="Default suite" duration-ms="1222" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="906" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
-      <class name="com.qtx.testcases.DropdownListTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2380" started-at="2020-03-11T10:03:11 EDT" finished-at="2020-03-11T10:03:14 EDT">
+    <test name="Default test" duration-ms="1222" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
+      <class name="com.qtx.testcases.JSAlertsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2180" started-at="2020-03-15T13:56:22 EDT" finished-at="2020-03-15T13:56:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="canSelectDropdownListItem()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="canSelectDropdownListItem" duration-ms="862" started-at="2020-03-11T10:03:14 EDT" finished-at="2020-03-11T10:03:15 EDT">
+        <test-method status="PASS" signature="JSAlertTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="JSAlertTest" duration-ms="1171" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- canSelectDropdownListItem -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DropdownListTest@79be0360]" name="afterTest" is-config="true" duration-ms="96" started-at="2020-03-11T10:03:15 EDT" finished-at="2020-03-11T10:03:15 EDT">
+        </test-method> <!-- JSAlertTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="afterTest" is-config="true" duration-ms="131" started-at="2020-03-15T13:56:25 EDT" finished-at="2020-03-15T13:56:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.DropdownListTest -->
+      </class> <!-- com.qtx.testcases.JSAlertsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

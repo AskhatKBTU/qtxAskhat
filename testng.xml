@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
+  <test name="CheckboxTest">
+  	<classes>
       <class name="com.qtx.testcases.CheckboxTest"/>
-      <class name="com.qtx.testcases.UserLoginTest"/>
-      <class name="com.qtx.testcases.ContextMenuTest"/>
-      <class name="com.qtx.testcases.HorizontalSliderTest"/>
-      <class name="com.qtx.testcases.InputsTest"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name = "UserLoginTest">
+  	<classes>
+  		<class name="com.qtx.testcases.UserLoginTest"/>
+  	</classes>
+  </test> <!-- Test -->
+  <test name = "ContextMenuTest">
+  	<classes>
+  		<class name="com.qtx.testcases.HorizontalSliderTest"/>
+  	</classes>
+  </test> <!-- Test -->
+  <test name = "InputsTest">
+    <classes>
+    	 <class name="com.qtx.testcases.InputsTest"/>
     </classes>
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->
