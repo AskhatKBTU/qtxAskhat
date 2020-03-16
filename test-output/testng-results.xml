@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1222" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
+  <suite name="Default suite" duration-ms="581" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1222" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
-      <class name="com.qtx.testcases.JSAlertsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2180" started-at="2020-03-15T13:56:22 EDT" finished-at="2020-03-15T13:56:24 EDT">
+    <test name="Default test" duration-ms="581" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
+      <class name="com.qtx.testcases.DownloadTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2204" started-at="2020-03-15T20:44:59 EDT" finished-at="2020-03-15T20:45:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="JSAlertTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="JSAlertTest" duration-ms="1171" started-at="2020-03-15T13:56:24 EDT" finished-at="2020-03-15T13:56:25 EDT">
+        <test-method status="PASS" signature="downloadFileTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="downloadFileTest" duration-ms="527" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JSAlertTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.JSAlertsTest@79be0360]" name="afterTest" is-config="true" duration-ms="131" started-at="2020-03-15T13:56:25 EDT" finished-at="2020-03-15T13:56:25 EDT">
+        </test-method> <!-- downloadFileTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="afterTest" is-config="true" duration-ms="143" started-at="2020-03-15T20:45:02 EDT" finished-at="2020-03-15T20:45:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.JSAlertsTest -->
+      </class> <!-- com.qtx.testcases.DownloadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
