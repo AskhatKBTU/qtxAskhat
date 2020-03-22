@@ -19,7 +19,7 @@ public class TestSuperClass {
 	@AfterSuite
 
 	public void afterTest() {
-		driver.quit();
+	//	driver.quit();
 
 	}
 

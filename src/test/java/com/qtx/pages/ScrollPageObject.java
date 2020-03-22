@@ -25,17 +25,13 @@ public class ScrollPageObject extends SuperPageObject{
 	public ScrollPageObject printParagraph() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		 driver.manage().window().maximize();
-		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  WebElement element = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div/div[4]/text()"));
-		  js.executeScript("arguments[0].scrollIntoView(true);", element);
-		 System.out.println(element.getText());
-		 
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		 
+		 js.executeScript("scroll(0, 5000);");
+		 WebElement firstParagraph = driver.findElement(By.className("jscroll-added"));
+		System.out.println(firstParagraph.getText()); 
 		return this;
 	}
 	
-	public boolean getConfirmation() {
-		return true;
-	}
 
 	
 }

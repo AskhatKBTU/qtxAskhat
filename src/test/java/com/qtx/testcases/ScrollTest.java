@@ -1,6 +1,6 @@
 package com.qtx.testcases;
 
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 
 import com.qtx.driver.TestSuperClass;
@@ -11,12 +11,10 @@ public class ScrollTest extends TestSuperClass {
 	
 	@Test 
 	public void printParagraph() { 
-		boolean expectedResult = new ScrollPageObject(driver, url)
+	 new ScrollPageObject(driver, url)
 				.openScrollPage()
-				.printParagraph()
-				.getConfirmation();	
-		
-		Assert.assertTrue(expectedResult, "Something went wrong in Scroll Test");
+				.printParagraph();
+
 		System.out.println("ScrollPage was printed successfully !");
 	}
 }
