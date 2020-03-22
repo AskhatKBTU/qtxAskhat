@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="581" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
+  <suite name="Default suite" duration-ms="2311" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="581" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
-      <class name="com.qtx.testcases.DownloadTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2204" started-at="2020-03-15T20:44:59 EDT" finished-at="2020-03-15T20:45:01 EDT">
+    <test name="Default test" duration-ms="2311" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
+      <class name="com.qtx.testcases.MenuTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2340" started-at="2020-03-22T18:59:25 EDT" finished-at="2020-03-22T18:59:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="downloadFileTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="downloadFileTest" duration-ms="527" started-at="2020-03-15T20:45:01 EDT" finished-at="2020-03-15T20:45:02 EDT">
+        <test-method status="PASS" signature="TestMenu()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="TestMenu" duration-ms="2263" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadFileTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DownloadTest@79be0360]" name="afterTest" is-config="true" duration-ms="143" started-at="2020-03-15T20:45:02 EDT" finished-at="2020-03-15T20:45:02 EDT">
+        </test-method> <!-- TestMenu -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="afterTest" is-config="true" duration-ms="106" started-at="2020-03-22T18:59:30 EDT" finished-at="2020-03-22T18:59:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.DownloadTest -->
+      </class> <!-- com.qtx.testcases.MenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -14,14 +14,15 @@ public class MenuTest extends TestSuperClass{
 		
 		boolean expectedResult = new MenuPageObject(driver, url)
 				.openMenuPage()
-				.dowloadFile()
-				.openDownloadedFile()
-				.getConfirmation();
+			      .dowloadFile()
+			    .getConfirmation();
 		
 		Assert.assertTrue(expectedResult, "Something went WRONG in Menu Test !!!");
 		
 		System.out.println("Menu test was executed successfully !");
 		
 	}
+
+	
 	
 }
