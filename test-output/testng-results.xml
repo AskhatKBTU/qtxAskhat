@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2311" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
+  <suite name="Default suite" duration-ms="921" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2311" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
-      <class name="com.qtx.testcases.MenuTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2340" started-at="2020-03-22T18:59:25 EDT" finished-at="2020-03-22T18:59:27 EDT">
+    <test name="Default test" duration-ms="921" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
+      <class name="com.qtx.testcases.WindowsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2530" started-at="2020-03-22T23:06:16 EDT" finished-at="2020-03-22T23:06:19 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TestMenu()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="TestMenu" duration-ms="2263" started-at="2020-03-22T18:59:27 EDT" finished-at="2020-03-22T18:59:29 EDT">
+        <test-method status="PASS" signature="windowsHandleTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="windowsHandleTest" duration-ms="871" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMenu -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.MenuTest@79be0360]" name="afterTest" is-config="true" duration-ms="106" started-at="2020-03-22T18:59:30 EDT" finished-at="2020-03-22T18:59:30 EDT">
+        </test-method> <!-- windowsHandleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-03-22T23:06:20 EDT" finished-at="2020-03-22T23:06:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.MenuTest -->
+      </class> <!-- com.qtx.testcases.WindowsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

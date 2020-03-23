@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qtx.testcases.MenuTest">
+      <class name="com.qtx.testcases.WindowsTest">
         <methods>
-          <include name="TestMenu"/>
+          <include name="windowsHandleTest"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qtx.testcases.MenuTest -->
+      </class> <!-- com.qtx.testcases.WindowsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
