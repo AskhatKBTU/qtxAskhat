@@ -16,8 +16,7 @@ public class FramesTest extends TestSuperClass {
 		boolean actualResult = new FramesPageObject(driver, url)
 				.openFramesPage()
 				.openNestedFrames()
-				.getTextFromAllFrames()
-				.getVerificationOnFrames();
+				.getTextFromAllFrames();
 		
 		
 		Assert.assertEquals(actualResult, expectedResult, "Something went wrong on Nested Frames Test!!!");

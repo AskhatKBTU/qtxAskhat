@@ -36,7 +36,7 @@ public class FramesPageObject extends SuperPageObject {
 	}
 	
 	
-	public FramesPageObject getTextFromAllFrames() {
+	public boolean getTextFromAllFrames() {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		ArrayList<WebElement> frames = new ArrayList<WebElement> (driver.findElements(By.tagName("frame")));
 	    driver.switchTo().frame(frames.get(0));
@@ -48,12 +48,10 @@ public class FramesPageObject extends SuperPageObject {
 	    driver.switchTo().frame(frames.get(3));
 	    System.out.println(driver.findElement(By.tagName("body")).getText());
 
-		return this;
-	}
-	
-	public boolean getVerificationOnFrames() {
 		return true;
 	}
+	
+
 
 	
 	
