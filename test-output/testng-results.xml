@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="921" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
+  <suite name="Default suite" duration-ms="5995" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:37 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="921" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
-      <class name="com.qtx.testcases.WindowsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="beforeTest" is-config="true" duration-ms="2530" started-at="2020-03-22T23:06:16 EDT" finished-at="2020-03-22T23:06:19 EDT">
+    <test name="Default test" duration-ms="5995" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:37 EDT">
+      <class name="com.qtx.testcases.TableTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="beforeTest" is-config="true" duration-ms="3890" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="windowsHandleTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="windowsHandleTest" duration-ms="871" started-at="2020-03-22T23:06:19 EDT" finished-at="2020-03-22T23:06:20 EDT">
+        <test-method status="PASS" signature="getDataFromCell()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="getDataFromCell" duration-ms="1851" started-at="2020-03-26T18:57:35 EDT" finished-at="2020-03-26T18:57:36 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowsHandleTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.WindowsTest@79be0360]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-03-22T23:06:20 EDT" finished-at="2020-03-22T23:06:20 EDT">
+        </test-method> <!-- getDataFromCell -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="afterTest" is-config="true" duration-ms="149" started-at="2020-03-26T18:57:36 EDT" finished-at="2020-03-26T18:57:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.WindowsTest -->
+      </class> <!-- com.qtx.testcases.TableTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

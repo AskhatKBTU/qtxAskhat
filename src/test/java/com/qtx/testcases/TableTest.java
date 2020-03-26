@@ -11,16 +11,18 @@ public class TableTest extends TestSuperClass {
 	@Test
 	public void getDataFromCell() {
 
-		
-		boolean actualResult = new TablePageObject(driver,url)
+
+		String rowData = new TablePageObject(driver,url)
 				.openTablePage()
-				.getCellData()
-				.getConfirmation();
+				.getCellData();
 		
+		char[] dueAmountArray =  rowData.toCharArray();
 		
-		Assert.assertTrue(actualResult, "Something went wrong on TableTest");
-		
-		System.out.println("Getting data from due cell: " + "expectedResult.getCellData()");
+		for (int i = 0; i<dueAmountArray.length; i++) {
+			if (dueAmountArray[i]=='$') {
+				System.out.println("DueAmount is equal to: " +dueAmountArray[i]+dueAmountArray[i+1]+dueAmountArray[i+2]+dueAmountArray[i+3]);
+			}
+		}
 	}
 	
 }

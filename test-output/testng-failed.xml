@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qtx.testcases.WindowsTest">
+      <class name="com.qtx.testcases.FramesTest">
         <methods>
-          <include name="windowsHandleTest"/>
           <include name="beforeTest"/>
+          <include name="TestNestedFrames"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qtx.testcases.WindowsTest -->
+      </class> <!-- com.qtx.testcases.FramesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

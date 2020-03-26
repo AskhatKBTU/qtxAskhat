@@ -6,20 +6,27 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import atu.testrecorder.ATUTestRecorder;
+import atu.testrecorder.exceptions.ATUTestRecorderException;
+
 public class TestSuperClass {
 
 	public WebDriver driver;
 	public String url = "http://the-internet.herokuapp.com";
+
 	
-	@BeforeSuite
-	public void beforeTest() {
+	
+	@BeforeTest
+	public void beforeTest() throws ATUTestRecorderException {
 		driver = DriverManagerFactory.getManager(DriverType.CHROME).getDriver();
+
 	}
 	
-	@AfterSuite
+	@AfterTest
 
-	public void afterTest() {
-	//	driver.quit();
+	public void afterTest() throws ATUTestRecorderException {
+
+	driver.quit();
 
 	}
 

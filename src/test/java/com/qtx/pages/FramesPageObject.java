@@ -1,5 +1,6 @@
 package com.qtx.pages;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
@@ -36,12 +37,16 @@ public class FramesPageObject extends SuperPageObject {
 	
 	
 	public FramesPageObject getTextFromAllFrames() {
-		String [] frameNames = {"frame-left","frame-middle","frame-right", "frame-bottom"};
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-	
-			driver.switchTo().frame("frame-left");
-			WebElement body = driver.findElement(By.cssSelector("body"));
-			System.out.println(body.getText());
+		ArrayList<WebElement> frames = new ArrayList<WebElement> (driver.findElements(By.tagName("frame")));
+	    driver.switchTo().frame(frames.get(0));
+	    System.out.println(driver.findElement(By.tagName("body")).getText());
+	    driver.switchTo().frame(frames.get(1));
+	    System.out.println(driver.findElement(By.tagName("body")).getText());
+	    driver.switchTo().frame(frames.get(2));
+	    System.out.println(driver.findElement(By.tagName("body")).getText());
+	    driver.switchTo().frame(frames.get(3));
+	    System.out.println(driver.findElement(By.tagName("body")).getText());
 
 		return this;
 	}

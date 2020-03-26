@@ -24,14 +24,6 @@ public class FramesTest extends TestSuperClass {
 		System.out.println("Nested Frames Test Passed Successfully!");
 	}
 	
-	@Test
-	public void TestIFrame() {
-		boolean expectedResult = true;
-		
-		boolean actualResult = true;
-	
-		Assert.assertEquals(actualResult, expectedResult, "Something went wrong on IFrames Test!!!");
-		System.out.println("IFrames Test Executed Successfully!");
-	}
+
 
 }
