@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5995" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:37 EDT">
+  <suite name="Default suite" duration-ms="11268" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:11:01 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5995" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:37 EDT">
-      <class name="com.qtx.testcases.TableTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="beforeTest" is-config="true" duration-ms="3890" started-at="2020-03-26T18:57:31 EDT" finished-at="2020-03-26T18:57:34 EDT">
+    <test name="Default test" duration-ms="11268" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:11:01 EDT">
+      <class name="com.qtx.testcases.DisappearingElementsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2294" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:10:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getDataFromCell()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="getDataFromCell" duration-ms="1851" started-at="2020-03-26T18:57:35 EDT" finished-at="2020-03-26T18:57:36 EDT">
+        <test-method status="PASS" signature="disappearingElementsTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="disappearingElementsTest" duration-ms="8816" started-at="2020-04-10T16:10:52 EDT" finished-at="2020-04-10T16:11:01 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDataFromCell -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.TableTest@6737fd8f]" name="afterTest" is-config="true" duration-ms="149" started-at="2020-03-26T18:57:36 EDT" finished-at="2020-03-26T18:57:37 EDT">
+        </test-method> <!-- disappearingElementsTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="afterTest" is-config="true" duration-ms="113" started-at="2020-04-10T16:11:01 EDT" finished-at="2020-04-10T16:11:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.TableTest -->
+      </class> <!-- com.qtx.testcases.DisappearingElementsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
