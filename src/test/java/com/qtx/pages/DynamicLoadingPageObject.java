@@ -7,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class DynamicLoadingPageObject extends SuperPageObject {
 	
-	String url = "/dynamic_loading/1";
-	WebDriverWait wait=new WebDriverWait(driver, 10);
+	String url = "/dynamic_loading/2";
+	
 
 	public DynamicLoadingPageObject(WebDriver driverInstance, String baseUrl) {
 		super(driverInstance, baseUrl);
@@ -24,17 +25,17 @@ public class DynamicLoadingPageObject extends SuperPageObject {
 	}
 
 	public boolean handleDynamicLoading() {
-	
 		
-		driver.findElement(By.xpath("//*[@id=\"start\"]/button")).click();
+		driver.findElement(By.cssSelector("button")).click();
 	
-		WebElement waitText = wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Hello World!")));
-	
+		new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(By.id("finish")));
 		
-		System.out.println(waitText.getText());
+		Assert.assertEquals(driver.findElement(By.id("finish")).getText(), "Hello World!");
 		
 		return true;
+	
 	}
+	
 
 
 }
