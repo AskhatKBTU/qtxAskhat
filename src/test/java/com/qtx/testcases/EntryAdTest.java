@@ -15,8 +15,7 @@ public class EntryAdTest extends TestSuperClass {
 		
 		boolean actualResult = new EntryAdPageObject(driver, url) 
 				.openEntryAdPage()
-				.handleEntryAd()
-				.getConfirmation();
+				.handleEntryAd();
 		
 			Assert.assertTrue(actualResult, "Something went wrong on Entry Ad test !!!");
 			System.out.println("Entry Ad test has been executed successfully !!!");

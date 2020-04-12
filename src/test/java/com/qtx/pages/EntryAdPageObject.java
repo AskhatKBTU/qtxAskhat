@@ -5,6 +5,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class EntryAdPageObject extends SuperPageObject {
 
@@ -20,14 +21,14 @@ public class EntryAdPageObject extends SuperPageObject {
 		return this;
 	}
 
-	public EntryAdPageObject handleEntryAd() {
+	public boolean handleEntryAd() {
 
-		driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).click();
-		return this;
-	}
-
-	public boolean getConfirmation() {
+		driver.switchTo().activeElement().findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).click();
+		driver.switchTo().defaultContent();
+		Assert.assertEquals(driver.getTitle(), "The Internet");
 		return true;
 	}
+
+
 
 }
