@@ -1,10 +1,17 @@
 package com.qtx.pages;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DynamicLoadingPageObject extends SuperPageObject {
 	
-	String url = "/dynamic_loading";
+	String url = "/dynamic_loading/1";
+	WebDriverWait wait=new WebDriverWait(driver, 10);
 
 	public DynamicLoadingPageObject(WebDriver driverInstance, String baseUrl) {
 		super(driverInstance, baseUrl);
@@ -16,13 +23,18 @@ public class DynamicLoadingPageObject extends SuperPageObject {
 		return this;
 	}
 
-	public DynamicLoadingPageObject handleDynamicLoading() {
-
-		return this;
-	}
-
-	public boolean getConfirmation() {
+	public boolean handleDynamicLoading() {
+	
+		
+		driver.findElement(By.xpath("//*[@id=\"start\"]/button")).click();
+	
+		WebElement waitText = wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Hello World!")));
+	
+		
+		System.out.println(waitText.getText());
+		
 		return true;
 	}
+
 
 }

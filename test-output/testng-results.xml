@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11268" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:11:01 EDT">
+  <suite name="Default suite" duration-ms="3951" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:56 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11268" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:11:01 EDT">
-      <class name="com.qtx.testcases.DisappearingElementsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2294" started-at="2020-04-10T16:10:50 EDT" finished-at="2020-04-10T16:10:52 EDT">
+    <test name="Default test" duration-ms="3951" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:56 EDT">
+      <class name="com.qtx.testcases.EntryAdTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2659" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="disappearingElementsTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="disappearingElementsTest" duration-ms="8816" started-at="2020-04-10T16:10:52 EDT" finished-at="2020-04-10T16:11:01 EDT">
+        <test-method status="PASS" signature="entryAdHandleTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="entryAdHandleTest" duration-ms="1206" started-at="2020-04-10T18:43:55 EDT" finished-at="2020-04-10T18:43:56 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- disappearingElementsTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DisappearingElementsTest@30b8a058]" name="afterTest" is-config="true" duration-ms="113" started-at="2020-04-10T16:11:01 EDT" finished-at="2020-04-10T16:11:01 EDT">
+        </test-method> <!-- entryAdHandleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-10T18:43:56 EDT" finished-at="2020-04-10T18:43:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.DisappearingElementsTest -->
+      </class> <!-- com.qtx.testcases.EntryAdTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

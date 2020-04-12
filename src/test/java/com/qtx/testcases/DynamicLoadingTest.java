@@ -15,8 +15,7 @@ public class DynamicLoadingTest extends TestSuperClass {
 	
 	boolean actualResult = new DynamicLoadingPageObject(driver, url) 
 			.openDynamicLoadingPage()
-			.handleDynamicLoading()
-			.getConfirmation();
+			.handleDynamicLoading();
 	
 		Assert.assertTrue(actualResult, "Something went wrong on Dynamic Loading test !!!");
 		System.out.println("Dynamic Loading test has been executed successfully !!!");
