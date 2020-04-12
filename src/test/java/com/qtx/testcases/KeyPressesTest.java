@@ -16,8 +16,7 @@ public class KeyPressesTest extends TestSuperClass{
 	
 	boolean actualResult = new KeyPressesPageObject(driver, url) 
 			.openKeyPressesPage()
-			.handleKeyPresses()
-			.getConfirmation();
+			.handleKeyPresses();
 	
 		Assert.assertTrue(actualResult, "Something went wrong on KeyPresses test !!!");
 		System.out.println("KeyPresses test has been executed successfully !!!");

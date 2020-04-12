@@ -26,7 +26,7 @@ public class TestSuperClass {
 
 	public void afterTest() throws ATUTestRecorderException {
 
-	//driver.quit();
+	driver.quit();
 
 	}
 

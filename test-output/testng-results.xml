@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3951" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:56 EDT">
+  <suite name="Default suite" duration-ms="3363" started-at="2020-04-12T16:23:21 EDT" finished-at="2020-04-12T16:23:24 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3951" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:56 EDT">
-      <class name="com.qtx.testcases.EntryAdTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2659" started-at="2020-04-10T18:43:52 EDT" finished-at="2020-04-10T18:43:55 EDT">
+    <test name="Default test" duration-ms="3363" started-at="2020-04-12T16:23:21 EDT" finished-at="2020-04-12T16:23:24 EDT">
+      <class name="com.qtx.testcases.KeyPressesTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.KeyPressesTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2312" started-at="2020-04-12T16:23:21 EDT" finished-at="2020-04-12T16:23:23 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="entryAdHandleTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="entryAdHandleTest" duration-ms="1206" started-at="2020-04-10T18:43:55 EDT" finished-at="2020-04-10T18:43:56 EDT">
+        <test-method status="PASS" signature="keyPressesTest()[pri:0, instance:com.qtx.testcases.KeyPressesTest@30b8a058]" name="keyPressesTest" duration-ms="917" started-at="2020-04-12T16:23:23 EDT" finished-at="2020-04-12T16:23:24 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- entryAdHandleTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.EntryAdTest@30b8a058]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-10T18:43:56 EDT" finished-at="2020-04-10T18:43:56 EDT">
+        </test-method> <!-- keyPressesTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.KeyPressesTest@30b8a058]" name="afterTest" is-config="true" duration-ms="101" started-at="2020-04-12T16:23:24 EDT" finished-at="2020-04-12T16:23:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.EntryAdTest -->
+      </class> <!-- com.qtx.testcases.KeyPressesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
