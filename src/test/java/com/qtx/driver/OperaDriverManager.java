@@ -5,28 +5,31 @@ import java.util.Map;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.opera.OperaOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ChromeDriverManager extends DriverManager {
+public class OperaDriverManager extends DriverManager {
 
 	@Override
 	protected void startService() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	protected void stopService() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	protected void createDriver() {
 		// TODO Auto-generated method stub
-		WebDriverManager.chromedriver().setup();
-		ChromeOptions options = new ChromeOptions();
+		WebDriverManager.operadriver().setup();
+		OperaOptions options = new OperaOptions();
 
 		Map<String, Object> prefs = new HashMap<String, Object>();
 		prefs.put("credentials_enable_service", false);
@@ -34,9 +37,7 @@ public class ChromeDriverManager extends DriverManager {
 
 		options.setExperimentalOption("prefs", prefs);
 
-		driver = new ChromeDriver(options);
+		driver = new OperaDriver(options);
 	}
-	
-
 
 }

@@ -5,7 +5,9 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class FloatingMenuPageObject extends SuperPageObject {
 	
@@ -21,14 +23,16 @@ String url = "/floating_menu";
 		return this;
 	}
 	
-	public FloatingMenuPageObject handleFloatingMenu() {
-
-		return this;
-	}
-	
-	
-	public boolean getConfirmation() {
+	public boolean handleFloatingMenu() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000)");
+		
+		driver.findElement(By.xpath("//*[@id=\"menu\"]/ul/li[4]")).click();
+		
+		Assert.assertEquals(driver.getCurrentUrl(), "http://the-internet.herokuapp.com/floating_menu#about");
 		return true;
 	}
-
+	
+	
 }

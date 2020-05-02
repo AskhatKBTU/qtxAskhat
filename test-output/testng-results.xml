@@ -2,24 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8115" started-at="2020-04-12T17:45:16 EDT" finished-at="2020-04-12T17:45:24 EDT">
+  <suite name="Default suite" duration-ms="6506" started-at="2020-05-02T12:02:07 EDT" finished-at="2020-05-02T12:02:13 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8115" started-at="2020-04-12T17:45:16 EDT" finished-at="2020-04-12T17:45:24 EDT">
-      <class name="com.qtx.testcases.DynamicLoadingTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qtx.testcases.DynamicLoadingTest@30b8a058]" name="beforeTest" is-config="true" duration-ms="2215" started-at="2020-04-12T17:45:16 EDT" finished-at="2020-04-12T17:45:18 EDT">
+    <test name="Default test" duration-ms="6506" started-at="2020-05-02T12:02:07 EDT" finished-at="2020-05-02T12:02:13 EDT">
+      <class name="com.qtx.testcases.MenuTest">
+        <test-method status="PASS" signature="readSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtx.testcases.MenuTest@a7e666]" name="readSettings" is-config="true" duration-ms="31" started-at="2020-05-02T12:02:07 EDT" finished-at="2020-05-02T12:02:07 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="dynamicLoadingTest()[pri:0, instance:com.qtx.testcases.DynamicLoadingTest@30b8a058]" name="dynamicLoadingTest" duration-ms="5716" started-at="2020-04-12T17:45:18 EDT" finished-at="2020-04-12T17:45:24 EDT">
+        </test-method> <!-- readSettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qtx.testcases.MenuTest@a7e666]" name="setup" is-config="true" duration-ms="4000" started-at="2020-05-02T12:02:07 EDT" finished-at="2020-05-02T12:02:11 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicLoadingTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qtx.testcases.DynamicLoadingTest@30b8a058]" name="afterTest" is-config="true" duration-ms="122" started-at="2020-04-12T17:45:24 EDT" finished-at="2020-04-12T17:45:24 EDT">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestMenu()[pri:0, instance:com.qtx.testcases.MenuTest@a7e666]" name="TestMenu" duration-ms="2270" started-at="2020-05-02T12:02:11 EDT" finished-at="2020-05-02T12:02:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.qtx.testcases.DynamicLoadingTest -->
+        </test-method> <!-- TestMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtx.testcases.MenuTest@a7e666]" name="tearDown" is-config="true" duration-ms="167" started-at="2020-05-02T12:02:13 EDT" finished-at="2020-05-02T12:02:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qtx.testcases.MenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

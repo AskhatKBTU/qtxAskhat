@@ -2,16 +2,20 @@ package com.qtx.driver;
 
 public class DriverManagerFactory {
 
-		public static DriverManager getManager (DriverType type) {
-			switch(type) {
-			case CHROME:
-				return new ChromeDriverManager();
-				default:
-						System.out.println(type +" is not supports driver!");
-				
-			}
+	public static DriverManager getManager(String browserType) {
 		
-				return null;
+		if(browserType.equals(BrowserTypes.Chrome)) {
+			return new ChromeDriverManager();
 		}
-	
+		
+		if(browserType.equals(BrowserTypes.Firefox)) {
+			return new FirefoxDriverManager();
+		}
+		
+		if(browserType.equals(BrowserTypes.Opera)) {
+			return new OperaDriverManager();
+		}
+			
+		throw new RuntimeException(browserType + " is not a supported browser.");
+	}
 }

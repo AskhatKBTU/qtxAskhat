@@ -28,7 +28,7 @@ public class DynamicLoadingPageObject extends SuperPageObject {
 		
 		driver.findElement(By.cssSelector("button")).click();
 	
-		new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(By.id("finish")));
+		new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeSelected(By.id("finish")));
 		
 		Assert.assertEquals(driver.findElement(By.id("finish")).getText(), "Hello World!");
 		

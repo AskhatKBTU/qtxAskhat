@@ -14,8 +14,7 @@ public class ExitIntentTest extends TestSuperClass {
 		
 		boolean actualResult = new ExitIntentPageObject(driver, url) 
 				.openExitIntentPage()
-				.handleExitIntent()
-				.getConfirmation();
+				.handleExitIntent();
 		
 		Assert.assertTrue(actualResult, "Something went wrong on Exit Intent test !!!");
 		System.out.println("Exit Intent test has been executed successfully !!!");
