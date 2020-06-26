@@ -6,20 +6,6 @@
       <class name="com.qtx.testcases.CheckboxTest"/>
       </classes>
   </test> <!-- Test -->
-  <test name = "UserLoginTest">
-  	<classes>
-  		<class name="com.qtx.testcases.UserLoginTest"/>
-  	</classes>
-  </test> <!-- Test -->
-  <test name = "ContextMenuTest">
-  	<classes>
-  		<class name="com.qtx.testcases.HorizontalSliderTest"/>
-  	</classes>
-  </test> <!-- Test -->
-  <test name = "InputsTest">
-    <classes>
-    	 <class name="com.qtx.testcases.InputsTest"/>
-    </classes>
-  </test> <!-- Test -->
+
 
 </suite> <!-- Suite -->
